@@ -1,0 +1,36 @@
+Other Income Asset
+Asset Type                                   FOREIGN CURRENCY DEPOSIT
+No of A/C Holders                            1
+Currency                                     JPY - JAPANESE YEN
+Currency Exchange Rate                       .0136
+Date of Conversion                           17-Mar-2020
+Gross Amount (Monthly)                       10,000,000.00
+Gross Amount (Monthly) (in local             135,590.00
+currency)
+Pledged / Unpledged / Info                   UNPLEDGED
+Pledge for X months                          0
+Name of Financial Institution                JPY BANK
+Recognized Factor                            30.00
+Recognized Income (Monthly) (in              847.44
+local currency)
+Income Document Type                         FOREIGN CURRENCY DEPOSIT BANK 
+                                             STATEMENT
+
+                                                                                                Other Income Asset
+Asset Type                                   UNIT TRUST (COLLECTIVE INVESTMENT
+                                             SCHEME) / BUSINESS TRUST
+No of A/C Holders                            1
+Currency                                     JPY - JAPANESE YEN
+Currency Exchange Rate                       .0136
+Date of Conversion                           17-Mar-2020
+Gross Amount (Monthly)                       1,000,000.00
+Gross Amount (Monthly) (in local             13,559.00
+currency)
+Pledged / Unpledged / Info                   UNPLEDGED
+Pledge for X months                          0
+Name of Financial Institution                JAPAN BANK
+Recognized Factor                            30.00
+Recognized Income (Monthly) (in              84.74
+local currency)
+Income Document Type                         FOREIGN CURRENCY DEPOSIT BANK
+                                             STATEMENT

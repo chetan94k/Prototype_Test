@@ -1,0 +1,1119 @@
+{
+    "workers": [
+        {
+            "associateOID": "G3FNHTYN3Y13W27X",
+            "workerID": {
+                "idValue": "8R6C4729E"
+            },
+            "person": {
+                "birthDate": "0000-01-09",
+                "genderCode": {
+                    "codeValue": "M",
+                    "shortName": "Male",
+                    "longName": "Male"
+                },
+                "socialInsurancePrograms": [
+                    {
+                        "nameCode": {
+                            "codeValue": "Medicare",
+                            "shortName": "Medicare"
+                        },
+                        "coveredIndicator": false
+                    }
+                ],
+                "tobaccoUserIndicator": false,
+                "disabledIndicator": false,
+                "preferredName": {},
+                "ethnicityCode": {
+                    "codeValue": "4",
+                    "shortName": "4",
+                    "longName": "Not Hispanic or Latino"
+                },
+                "raceCode": {
+                    "identificationMethodCode": {
+                        "codeValue": "SID",
+                        "shortName": "Self ID"
+                    },
+                    "codeValue": "1",
+                    "shortName": "White",
+                    "longName": "White"
+                },
+                "militaryStatusCode": {
+                    "codeValue": "N",
+                    "longName": "I am not a protected veteran"
+                },
+                "customFieldGroup": {
+                    "amountFields": [
+                        {
+                            "itemID": "1465918987_34",
+                            "nameCode": {
+                                "codeValue": "Vol Life Total Amount Pending",
+                                "longName": "Vol Life Total Amount Pending"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_33",
+                            "nameCode": {
+                                "codeValue": "Vol Life Total Amount Requested",
+                                "longName": "Vol Life Total Amount Requested"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_50",
+                            "nameCode": {
+                                "codeValue": "Vol Child Life Total Amount Pending",
+                                "longName": "Vol Child Life Total Amount Pending"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_49",
+                            "nameCode": {
+                                "codeValue": " Vol Child Life Total Amount Requested ",
+                                "longName": " Vol Child Life Total Amount Requested "
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_42",
+                            "nameCode": {
+                                "codeValue": "Vol Spouse Life Total Amount Pending",
+                                "longName": "Vol Spouse Life Total Amount Pending"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_41",
+                            "nameCode": {
+                                "codeValue": "Vol Spouse Life Total Amount Requested",
+                                "longName": "Vol Spouse Life Total Amount Requested"
+                            }
+                        }
+                    ],
+                    "codeFields": [
+                        {
+                            "itemID": "1465918987_59",
+                            "nameCode": {
+                                "codeValue": "STD Status",
+                                "shortName": "STD Status"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_36",
+                            "nameCode": {
+                                "codeValue": "Vol Life Status",
+                                "shortName": "Vol Life Status"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_52",
+                            "nameCode": {
+                                "codeValue": " Vol Child Life Status ",
+                                "longName": " Vol Child Life Status "
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_44",
+                            "nameCode": {
+                                "codeValue": "Vol Spouse Life Status",
+                                "longName": "Vol Spouse Life Status"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_64",
+                            "nameCode": {
+                                "codeValue": "LTD Status",
+                                "shortName": "LTD Status"
+                            }
+                        }
+                    ],
+                    "dateFields": [
+                        {
+                            "itemID": "1465918987_58",
+                            "nameCode": {
+                                "codeValue": "LTD EOI Sent Date",
+                                "shortName": "LTD EOI Sent Date"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_57",
+                            "nameCode": {
+                                "codeValue": "STD EOI Sent Date",
+                                "shortName": "STD EOI Sent Date"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_35",
+                            "nameCode": {
+                                "codeValue": "Vol Life Date EOI Sent Date",
+                                "longName": "Vol Life Date EOI Sent Date"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_56",
+                            "nameCode": {
+                                "codeValue": "Vol Child Life Decision Date",
+                                "longName": "Vol Child Life Decision Date"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_51",
+                            "nameCode": {
+                                "codeValue": "Vol Child Life Date EOI Sent Date",
+                                "longName": "Vol Child Life Date EOI Sent Date"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_48",
+                            "nameCode": {
+                                "codeValue": "Vol Spouse Life Decision Date",
+                                "longName": "Vol Spouse Life Decision Date"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_68",
+                            "nameCode": {
+                                "codeValue": "LTD Decision Date",
+                                "shortName": "LTD Decision Date"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_43",
+                            "nameCode": {
+                                "codeValue": "Vol Spouse Life Date EOI Sent Date",
+                                "longName": "Vol Spouse Life Date EOI Sent Date"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_63",
+                            "nameCode": {
+                                "codeValue": "STD Decision Date",
+                                "shortName": "STD Decision Date"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_40",
+                            "nameCode": {
+                                "codeValue": "Vol Life Decision Date",
+                                "longName": "Vol Life Decision Date"
+                            }
+                        }
+                    ],
+                    "indicatorFields": [
+                        {
+                            "itemID": "273882001700_1255",
+                            "nameCode": {
+                                "codeValue": "Approved for Company Cell",
+                                "longName": "Approved for Company Cell"
+                            },
+                            "indicatorValue": false
+                        }
+                    ],
+                    "stringFields": [
+                        {
+                            "itemID": "2549329141_1199",
+                            "nameCode": {
+                                "codeValue": "United Employee ID",
+                                "shortName": "United Employee ID"
+                            },
+                            "stringValue": "V772765"
+                        },
+                        {
+                            "itemID": "273883997063_492",
+                            "nameCode": {
+                                "codeValue": "United Manager ID",
+                                "shortName": "United Manager ID"
+                            },
+                            "stringValue": "1234"
+                        }
+                    ]
+                },
+                "governmentIDs": [
+                    {
+                        "itemID": "2083199348_106",
+                        "idValue": "XXX-XX-3917",
+                        "nameCode": {
+                            "codeValue": "SSN",
+                            "longName": "Social Security Number"
+                        },
+                        "countryCode": "US"
+                    }
+                ],
+                "legalName": {
+                    "givenName": "Hassan",
+                    "familyName1": "Aarab",
+                    "formattedName": "Aarab, Hassan"
+                },
+                "legalAddress": {
+                    "nameCode": {
+                        "codeValue": "Personal Address 1",
+                        "shortName": "Personal Address 1",
+                        "longName": "Personal Address 1"
+                    },
+                    "lineOne": "6801 W. Montrose Ave",
+                    "lineTwo": "Apt 1 N",
+                    "cityName": "Harwood Heights",
+                    "countrySubdivisionLevel1": {
+                        "subdivisionType": "StateTerritory",
+                        "codeValue": "IL",
+                        "shortName": "Illinois"
+                    },
+                    "countryCode": "US",
+                    "postalCode": "60706"
+                },
+                "communication": {
+                    "mobiles": [
+                        {
+                            "itemID": "2083199348_110",
+                            "nameCode": {
+                                "codeValue": "Personal Cell",
+                                "shortName": "Personal Cell"
+                            },
+                            "countryDialing": "1",
+                            "areaDialing": "312",
+                            "dialNumber": "6623772",
+                            "access": "1",
+                            "formattedNumber": "(312) 662-3772"
+                        }
+                    ],
+                    "emails": [
+                        {
+                            "nameCode": {
+                                "codeValue": "Personal E-mail",
+                                "shortName": "Personal E-mail"
+                            },
+                            "emailUri": "Hassan.Arab@panasonic.aero"
+                        }
+                    ]
+                }
+            },
+            "workerDates": {
+                "originalHireDate": "2018-02-19"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "Active"
+                }
+            },
+            "businessCommunication": {
+                "emails": [
+                    {
+                        "itemID": "Business",
+                        "nameCode": {
+                            "codeValue": "Work E-mail",
+                            "shortName": "Work E-mail"
+                        },
+                        "emailUri": "hassan.aarab@unitedgroundexpress.com"
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "itemID": "2083199348_106",
+                    "primaryIndicator": true,
+                    "hireDate": "2018-02-19",
+                    "actualStartDate": "2018-02-19",
+                    "assignmentStatus": {
+                        "statusCode": {
+                            "codeValue": "A",
+                            "shortName": "Active",
+                            "longName": "Active"
+                        }
+                    },
+                    "workerTypeCode": {
+                        "codeValue": "F",
+                        "shortName": "Full Time"
+                    },
+                    "workerGroups": [
+                        {
+                            "nameCode": {
+                                "codeValue": "Benefits Eligibility Class",
+                                "longName": "Benefits Eligibility Class"
+                            },
+                            "groupCode": {
+                                "codeValue": "ILFRNTLNFT",
+                                "shortName": "IL -  Frontline FT"
+                            }
+                        }
+                    ],
+                    "jobCode": {
+                        "codeValue": "H39321",
+                        "longName": "Curbside Assistance Agent"
+                    },
+                    "jobTitle": "Curbside Assistance Agent",
+                    "occupationalClassifications": [
+                        {
+                            "nameCode": {
+                                "codeValue": "EEOC",
+                                "shortName": "EEOC"
+                            },
+                            "classificationCode": {
+                                "codeValue": "9",
+                                "shortName": "Service Workers"
+                            }
+                        }
+                    ],
+                    "wageLawCoverage": {
+                        "wageLawNameCode": {
+                            "codeValue": "FLSA",
+                            "longName": "Fair Labor Standards Act"
+                        },
+                        "coverageCode": {
+                            "codeValue": "N",
+                            "shortName": "Non-exempt"
+                        }
+                    },
+                    "positionID": "62M772765",
+                    "standardHours": {
+                        "hoursQuantity": 80.0,
+                        "unitCode": {
+                            "codeValue": "2",
+                            "shortName": "Biweekly"
+                        }
+                    },
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "OPERATIONS",
+                                "shortName": "Operations"
+                            },
+                            "typeCode": {
+                                "codeValue": "Business Unit",
+                                "shortName": "Business Unit"
+                            }
+                        },
+                        {
+                            "nameCode": {
+                                "codeValue": "700100",
+                                "longName": "HUB Passenger Assistance"
+                            },
+                            "typeCode": {
+                                "codeValue": "Department",
+                                "shortName": "Department"
+                            }
+                        },
+                        {
+                            "nameCode": {
+                                "codeValue": "ORD-700100",
+                                "longName": "ORD Passenger Assistance"
+                            },
+                            "typeCode": {
+                                "codeValue": "Cost Number",
+                                "shortName": "Cost Number"
+                            }
+                        }
+                    ],
+                    "assignedOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "OPERATIONS",
+                                "shortName": "Operations"
+                            },
+                            "typeCode": {
+                                "codeValue": "Business Unit",
+                                "shortName": "Business Unit"
+                            }
+                        },
+                        {
+                            "nameCode": {
+                                "codeValue": "700100",
+                                "longName": "HUB Passenger Assistance"
+                            },
+                            "typeCode": {
+                                "codeValue": "Department",
+                                "shortName": "Department"
+                            }
+                        },
+                        {
+                            "nameCode": {
+                                "codeValue": "ORD-700100",
+                                "longName": "ORD Passenger Assistance"
+                            },
+                            "typeCode": {
+                                "codeValue": "Cost Number",
+                                "shortName": "Cost Number"
+                            }
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "address": {
+                            "lineOne": "10000 W O'Hare Ave,",
+                            "cityName": "Chicago",
+                            "countrySubdivisionLevel1": {
+                                "subdivisionType": "StateTerritory",
+                                "codeValue": "IL",
+                                "shortName": "Illinois"
+                            },
+                            "countryCode": "US",
+                            "postalCode": "60666"
+                        },
+                        "nameCode": {
+                            "codeValue": "ORDPA",
+                            "shortName": "ORDPAOZ Chicago, IL"
+                        }
+                    },
+                    "payCycleCode": {
+                        "codeValue": "B",
+                        "shortName": "Biweekly"
+                    },
+                    "baseRemuneration": {
+                        "hourlyRateAmount": {
+                            "nameCode": {
+                                "codeValue": "Hourly",
+                                "shortName": "Hourly"
+                            },
+                            "amountValue": 15.2725,
+                            "currencyCode": "USD"
+                        },
+                        "annualRateAmount": {
+                            "nameCode": {
+                                "codeValue": "ANNUAL",
+                                "shortName": "ANNUAL"
+                            },
+                            "amountValue": 3.97,
+                            "currencyCode": "USD"
+                        },
+                        "effectiveDate": "2020-03-06"
+                    },
+                    "reportsTo": [
+                        {
+                            "positionID": "62K10279N",
+                            "associateOID": "G3NCD4PQKX914405",
+                            "workerID": {
+                                "idValue": "3M53HQ6SU",
+                                "schemeCode": {
+                                    "codeValue": "Associate ID",
+                                    "shortName": "Associate ID"
+                                }
+                            },
+                            "reportsToWorkerName": {
+                                "formattedName": "Mohammad Akhtar"
+                            }
+                        }
+                    ],
+                    "payrollProcessingStatusCode": {
+                        "shortName": "Paid"
+                    },
+                    "payrollGroupCode": "62M",
+                    "payrollScheduleGroupID": "Use Period End Date 2 on checks",
+                    "payrollFileNumber": "772765",
+                    "managementPositionIndicator": false
+                }
+            ],
+            "customFieldGroup": {
+                "codeFields": [
+                    {
+                        "itemID": "273893583336_124",
+                        "nameCode": {
+                            "codeValue": "Oracle Cost Center",
+                            "shortName": "Oracle Cost Center"
+                        },
+                        "codeValue": "0043186.0043. ORD - HUB SERVICES",
+                        "longName": "0043186.0043. ORD - HUB SERVICES"
+                    }
+                ],
+                "dateFields": [
+                    {
+                        "itemID": "2013102774_3189",
+                        "nameCode": {
+                            "codeValue": "Previous Ground Handler Seniority",
+                            "longName": "Previous Ground Handler Seniority"
+                        },
+                        "dateValue": "2002-02-01"
+                    },
+                    {
+                        "itemID": "2013102774_3188",
+                        "nameCode": {
+                            "codeValue": "Adjusted company seniority",
+                            "longName": "Adjusted company seniority"
+                        },
+                        "dateValue": "2018-02-19"
+                    },
+                    {
+                        "itemID": "1461448979_310",
+                        "nameCode": {
+                            "codeValue": "Class Date",
+                            "shortName": "Class Date"
+                        },
+                        "dateValue": "2002-02-01"
+                    },
+                    {
+                        "itemID": "1461448979_311",
+                        "nameCode": {
+                            "codeValue": "Contract Date",
+                            "shortName": "Contract Date"
+                        },
+                        "dateValue": "2018-03-06"
+                    }
+                ],
+                "stringFields": [
+                    {
+                        "itemID": "273888836978_1128",
+                        "nameCode": {
+                            "codeValue": "Manager ID",
+                            "shortName": "Manager ID"
+                        },
+                        "stringValue": "U194466"
+                    },
+                    {
+                        "itemID": "2610621635_10161",
+                        "nameCode": {
+                            "codeValue": "Custom Position ID",
+                            "shortName": "Custom Position ID"
+                        },
+                        "stringValue": "62M772765"
+                    }
+                ]
+            }
+        },
+        {
+            "associateOID": "G3KXXRDH51317Z9K",
+            "workerID": {
+                "idValue": "BA3ZDKG3R"
+            },
+            "person": {
+                "birthDate": "0000-06-02",
+                "genderCode": {
+                    "codeValue": "F",
+                    "shortName": "Female",
+                    "longName": "Female"
+                },
+                "socialInsurancePrograms": [
+                    {
+                        "nameCode": {
+                            "codeValue": "Medicare",
+                            "shortName": "Medicare"
+                        },
+                        "coveredIndicator": false
+                    }
+                ],
+                "tobaccoUserIndicator": false,
+                "disabledIndicator": false,
+                "preferredName": {},
+                "ethnicityCode": {
+                    "codeValue": "4",
+                    "shortName": "4",
+                    "longName": "Not Hispanic or Latino"
+                },
+                "raceCode": {
+                    "identificationMethodCode": {
+                        "codeValue": "SID",
+                        "shortName": "Self ID"
+                    },
+                    "codeValue": "2",
+                    "shortName": "Black or African American",
+                    "longName": "Black or African American"
+                },
+                "militaryStatusCode": {
+                    "codeValue": "N",
+                    "longName": "I am not a protected veteran"
+                },
+                "customFieldGroup": {
+                    "amountFields": [
+                        {
+                            "itemID": "1465918987_34",
+                            "nameCode": {
+                                "codeValue": "Vol Life Total Amount Pending",
+                                "longName": "Vol Life Total Amount Pending"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_33",
+                            "nameCode": {
+                                "codeValue": "Vol Life Total Amount Requested",
+                                "longName": "Vol Life Total Amount Requested"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_50",
+                            "nameCode": {
+                                "codeValue": "Vol Child Life Total Amount Pending",
+                                "longName": "Vol Child Life Total Amount Pending"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_49",
+                            "nameCode": {
+                                "codeValue": " Vol Child Life Total Amount Requested ",
+                                "longName": " Vol Child Life Total Amount Requested "
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_42",
+                            "nameCode": {
+                                "codeValue": "Vol Spouse Life Total Amount Pending",
+                                "longName": "Vol Spouse Life Total Amount Pending"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_41",
+                            "nameCode": {
+                                "codeValue": "Vol Spouse Life Total Amount Requested",
+                                "longName": "Vol Spouse Life Total Amount Requested"
+                            }
+                        }
+                    ],
+                    "codeFields": [
+                        {
+                            "itemID": "1465918987_59",
+                            "nameCode": {
+                                "codeValue": "STD Status",
+                                "shortName": "STD Status"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_36",
+                            "nameCode": {
+                                "codeValue": "Vol Life Status",
+                                "shortName": "Vol Life Status"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_52",
+                            "nameCode": {
+                                "codeValue": " Vol Child Life Status ",
+                                "longName": " Vol Child Life Status "
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_44",
+                            "nameCode": {
+                                "codeValue": "Vol Spouse Life Status",
+                                "longName": "Vol Spouse Life Status"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_64",
+                            "nameCode": {
+                                "codeValue": "LTD Status",
+                                "shortName": "LTD Status"
+                            }
+                        }
+                    ],
+                    "dateFields": [
+                        {
+                            "itemID": "1465918987_58",
+                            "nameCode": {
+                                "codeValue": "LTD EOI Sent Date",
+                                "shortName": "LTD EOI Sent Date"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_57",
+                            "nameCode": {
+                                "codeValue": "STD EOI Sent Date",
+                                "shortName": "STD EOI Sent Date"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_35",
+                            "nameCode": {
+                                "codeValue": "Vol Life Date EOI Sent Date",
+                                "longName": "Vol Life Date EOI Sent Date"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_56",
+                            "nameCode": {
+                                "codeValue": "Vol Child Life Decision Date",
+                                "longName": "Vol Child Life Decision Date"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_51",
+                            "nameCode": {
+                                "codeValue": "Vol Child Life Date EOI Sent Date",
+                                "longName": "Vol Child Life Date EOI Sent Date"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_48",
+                            "nameCode": {
+                                "codeValue": "Vol Spouse Life Decision Date",
+                                "longName": "Vol Spouse Life Decision Date"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_68",
+                            "nameCode": {
+                                "codeValue": "LTD Decision Date",
+                                "shortName": "LTD Decision Date"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_43",
+                            "nameCode": {
+                                "codeValue": "Vol Spouse Life Date EOI Sent Date",
+                                "longName": "Vol Spouse Life Date EOI Sent Date"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_63",
+                            "nameCode": {
+                                "codeValue": "STD Decision Date",
+                                "shortName": "STD Decision Date"
+                            }
+                        },
+                        {
+                            "itemID": "1465918987_40",
+                            "nameCode": {
+                                "codeValue": "Vol Life Decision Date",
+                                "longName": "Vol Life Decision Date"
+                            }
+                        }
+                    ],
+                    "indicatorFields": [
+                        {
+                            "itemID": "273882001700_1255",
+                            "nameCode": {
+                                "codeValue": "Approved for Company Cell",
+                                "longName": "Approved for Company Cell"
+                            }
+                        }
+                    ],
+                    "stringFields": [
+                        {
+                            "itemID": "2549329141_1199",
+                            "nameCode": {
+                                "codeValue": "United Employee ID",
+                                "shortName": "United Employee ID"
+                            },
+                            "stringValue": "V775103"
+                        },
+                        {
+                            "itemID": "273883997063_492",
+                            "nameCode": {
+                                "codeValue": "United Manager ID",
+                                "shortName": "United Manager ID"
+                            }
+                        }
+                    ]
+                },
+                "governmentIDs": [
+                    {
+                        "itemID": "2506755279_337",
+                        "idValue": "XXX-XX-1796",
+                        "nameCode": {
+                            "codeValue": "SSN",
+                            "longName": "Social Security Number"
+                        },
+                        "countryCode": "US"
+                    }
+                ],
+                "legalName": {
+                    "givenName": "Joanna",
+                    "familyName1": "Aaron",
+                    "formattedName": "Aaron, Joanna"
+                },
+                "legalAddress": {
+                    "nameCode": {
+                        "codeValue": "Personal Address 1",
+                        "shortName": "Personal Address 1",
+                        "longName": "Personal Address 1"
+                    },
+                    "lineOne": "114 N. Parkside Ave.",
+                    "cityName": "Chicago",
+                    "countrySubdivisionLevel1": {
+                        "subdivisionType": "StateTerritory",
+                        "codeValue": "IL",
+                        "shortName": "Illinois"
+                    },
+                    "countryCode": "US",
+                    "postalCode": "60644"
+                },
+                "communication": {
+                    "mobiles": [
+                        {
+                            "itemID": "2506755279_341",
+                            "nameCode": {
+                                "codeValue": "Personal Cell",
+                                "shortName": "Personal Cell"
+                            },
+                            "countryDialing": "1",
+                            "areaDialing": "312",
+                            "dialNumber": "5976006",
+                            "access": "1",
+                            "formattedNumber": "(312) 597-6006"
+                        }
+                    ]
+                }
+            },
+            "workerDates": {
+                "originalHireDate": "2018-03-06"
+            },
+            "workerStatus": {
+                "statusCode": {
+                    "codeValue": "Active"
+                }
+            },
+            "businessCommunication": {
+                "emails": [
+                    {
+                        "itemID": "Business",
+                        "nameCode": {
+                            "codeValue": "Work E-mail",
+                            "shortName": "Work E-mail"
+                        },
+                        "emailUri": "Joanna.Aaron@unitedgroundexpress.com"
+                    }
+                ]
+            },
+            "workAssignments": [
+                {
+                    "itemID": "2506755279_337",
+                    "primaryIndicator": true,
+                    "hireDate": "2018-03-06",
+                    "actualStartDate": "2018-03-06",
+                    "assignmentStatus": {
+                        "statusCode": {
+                            "codeValue": "A",
+                            "shortName": "Active",
+                            "longName": "Active"
+                        }
+                    },
+                    "workerTypeCode": {
+                        "codeValue": "F",
+                        "shortName": "Full Time"
+                    },
+                    "workerGroups": [
+                        {
+                            "nameCode": {
+                                "codeValue": "Benefits Eligibility Class",
+                                "longName": "Benefits Eligibility Class"
+                            },
+                            "groupCode": {
+                                "codeValue": "ILFRNTLNFT",
+                                "shortName": "IL -  Frontline FT"
+                            }
+                        }
+                    ],
+                    "jobCode": {
+                        "codeValue": "H39320",
+                        "longName": "Passenger Assistance Agent"
+                    },
+                    "jobTitle": "Passenger Assistance Agent",
+                    "occupationalClassifications": [
+                        {
+                            "nameCode": {
+                                "codeValue": "EEOC",
+                                "shortName": "EEOC"
+                            },
+                            "classificationCode": {
+                                "codeValue": "9",
+                                "shortName": "Service Workers"
+                            }
+                        }
+                    ],
+                    "wageLawCoverage": {
+                        "wageLawNameCode": {
+                            "codeValue": "FLSA",
+                            "longName": "Fair Labor Standards Act"
+                        },
+                        "coverageCode": {
+                            "codeValue": "N",
+                            "shortName": "Non-exempt"
+                        }
+                    },
+                    "positionID": "62M775103",
+                    "standardHours": {
+                        "hoursQuantity": 80.0,
+                        "unitCode": {
+                            "codeValue": "2",
+                            "shortName": "Biweekly"
+                        }
+                    },
+                    "fullTimeEquivalenceRatio": 1.0,
+                    "homeOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "OPERATIONS",
+                                "shortName": "Operations"
+                            },
+                            "typeCode": {
+                                "codeValue": "Business Unit",
+                                "shortName": "Business Unit"
+                            }
+                        },
+                        {
+                            "nameCode": {
+                                "codeValue": "700100",
+                                "longName": "HUB Passenger Assistance"
+                            },
+                            "typeCode": {
+                                "codeValue": "Department",
+                                "shortName": "Department"
+                            }
+                        },
+                        {
+                            "nameCode": {
+                                "codeValue": "ORD-700100",
+                                "longName": "ORD Passenger Assistance"
+                            },
+                            "typeCode": {
+                                "codeValue": "Cost Number",
+                                "shortName": "Cost Number"
+                            }
+                        }
+                    ],
+                    "assignedOrganizationalUnits": [
+                        {
+                            "nameCode": {
+                                "codeValue": "OPERATIONS",
+                                "shortName": "Operations"
+                            },
+                            "typeCode": {
+                                "codeValue": "Business Unit",
+                                "shortName": "Business Unit"
+                            }
+                        },
+                        {
+                            "nameCode": {
+                                "codeValue": "700100",
+                                "longName": "HUB Passenger Assistance"
+                            },
+                            "typeCode": {
+                                "codeValue": "Department",
+                                "shortName": "Department"
+                            }
+                        },
+                        {
+                            "nameCode": {
+                                "codeValue": "ORD-700100",
+                                "longName": "ORD Passenger Assistance"
+                            },
+                            "typeCode": {
+                                "codeValue": "Cost Number",
+                                "shortName": "Cost Number"
+                            }
+                        }
+                    ],
+                    "homeWorkLocation": {
+                        "address": {
+                            "lineOne": "10000 W O'Hare Ave,",
+                            "cityName": "Chicago",
+                            "countrySubdivisionLevel1": {
+                                "subdivisionType": "StateTerritory",
+                                "codeValue": "IL",
+                                "shortName": "Illinois"
+                            },
+                            "countryCode": "US",
+                            "postalCode": "60666"
+                        },
+                        "nameCode": {
+                            "codeValue": "ORDPA",
+                            "shortName": "ORDPAOZ Chicago, IL"
+                        }
+                    },
+                    "payCycleCode": {
+                        "codeValue": "B",
+                        "shortName": "Biweekly"
+                    },
+                    "baseRemuneration": {
+                        "hourlyRateAmount": {
+                            "nameCode": {
+                                "codeValue": "Hourly",
+                                "shortName": "Hourly"
+                            },
+                            "amountValue": 15.2725,
+                            "currencyCode": "USD"
+                        },
+                        "annualRateAmount": {
+                            "nameCode": {
+                                "codeValue": "ANNUAL",
+                                "shortName": "ANNUAL"
+                            },
+                            "amountValue": 3.97,
+                            "currencyCode": "USD"
+                        },
+                        "effectiveDate": "2020-03-06"
+                    },
+                    "reportsTo": [
+                        {
+                            "positionID": "62K10279N",
+                            "associateOID": "G3NCD4PQKX914405",
+                            "workerID": {
+                                "idValue": "3M53HQ6SU",
+                                "schemeCode": {
+                                    "codeValue": "Associate ID",
+                                    "shortName": "Associate ID"
+                                }
+                            },
+                            "reportsToWorkerName": {
+                                "formattedName": "Mohammad Akhtar"
+                            }
+                        }
+                    ],
+                    "payrollProcessingStatusCode": {
+                        "shortName": "Paid"
+                    },
+                    "payrollGroupCode": "62M",
+                    "payrollScheduleGroupID": "Use Period End Date 2 on checks",
+                    "payrollFileNumber": "775103",
+                    "managementPositionIndicator": false
+                }
+            ],
+            "customFieldGroup": {
+                "codeFields": [
+                    {
+                        "itemID": "273893583336_124",
+                        "nameCode": {
+                            "codeValue": "Oracle Cost Center",
+                            "shortName": "Oracle Cost Center"
+                        },
+                        "codeValue": "0043186.0043. ORD - HUB SERVICES",
+                        "longName": "0043186.0043. ORD - HUB SERVICES"
+                    }
+                ],
+                "dateFields": [
+                    {
+                        "itemID": "2013102774_3189",
+                        "nameCode": {
+                            "codeValue": "Previous Ground Handler Seniority",
+                            "longName": "Previous Ground Handler Seniority"
+                        },
+                        "dateValue": "2005-12-13"
+                    },
+                    {
+                        "itemID": "2013102774_3188",
+                        "nameCode": {
+                            "codeValue": "Adjusted company seniority",
+                            "longName": "Adjusted company seniority"
+                        },
+                        "dateValue": "2018-03-06"
+                    },
+                    {
+                        "itemID": "1461448979_310",
+                        "nameCode": {
+                            "codeValue": "Class Date",
+                            "shortName": "Class Date"
+                        },
+                        "dateValue": "2005-12-13"
+                    },
+                    {
+                        "itemID": "1461448979_311",
+                        "nameCode": {
+                            "codeValue": "Contract Date",
+                            "shortName": "Contract Date"
+                        },
+                        "dateValue": "2018-04-04"
+                    }
+                ],
+                "stringFields": [
+                    {
+                        "itemID": "273888836978_1128",
+                        "nameCode": {
+                            "codeValue": "Manager ID",
+                            "shortName": "Manager ID"
+                        },
+                        "stringValue": "U194466"
+                    },
+                    {
+                        "itemID": "2610621635_10161",
+                        "nameCode": {
+                            "codeValue": "Custom Position ID",
+                            "shortName": "Custom Position ID"
+                        },
+                        "stringValue": "62M775103"
+                    }
+                ]
+            }
+        }
+	]
+}

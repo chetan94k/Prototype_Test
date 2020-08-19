@@ -1,0 +1,43 @@
+{
+  "name": "Prototype_Test",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Microsoft.ApplicationInsights": "[2.14.0]",
+    "Microsoft.ApplicationInsights.DependencyCollector": "[2.14.0]",
+    "UiPath.Excel.Activities": "[2.8.5]",
+    "UiPath.Mail.Activities": "[1.7.2]",
+    "UiPath.PDF.Activities": "[3.2.2]",
+    "UiPath.System.Activities": "[20.4.0]",
+    "UiPath.UIAutomation.Activities": "[19.11.0]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.10.4.0",
+  "projectVersion": "1.0.18",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": []
+  },
+  "arguments": {
+    "input": [],
+    "output": []
+  },
+  "expressionLanguage": "VisualBasic"
+}

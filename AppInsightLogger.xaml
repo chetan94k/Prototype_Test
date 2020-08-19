@@ -1,0 +1,142 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="TraceInformation" this:TraceInformation.in_InstrumentKey="your_instrumentation_key" this:TraceInformation.in_Message="New Exception from Library" this:TraceInformation.in_Category="trace" this:TraceInformation.in_Exception="[New NotSupportedException(&quot;This file is not Supported&quot;)]" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:ma="clr-namespace:Microsoft.ApplicationInsights;assembly=Microsoft.ApplicationInsights" xmlns:mae="clr-namespace:Microsoft.ApplicationInsights.Extensibility;assembly=Microsoft.ApplicationInsights" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_InstrumentKey" Type="InArgument(x:String)" />
+    <x:Property Name="in_Message" Type="InArgument(x:String)" />
+    <x:Property Name="in_Category" Type="InArgument(x:String)" />
+    <x:Property Name="in_Properties" Type="InArgument(scg:Dictionary(x:String, x:String))" />
+    <x:Property Name="in_Exception" Type="InArgument(s:Exception)" />
+  </x:Members>
+  <mva:VisualBasic.Settings>
+    <x:Null />
+  </mva:VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>810,1203.33333333333</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>TraceInformation_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>Microsoft.ApplicationInsights</x:String>
+      <x:String>Microsoft.ApplicationInsights.Extensibility</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>Microsoft.ApplicationInsights.DataContracts</x:String>
+      <x:String>Microsoft.ApplicationInsights.DependencyCollector</x:String>
+      <x:String>System.IO</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.ApplicationInsights</AssemblyReference>
+      <AssemblyReference>Microsoft.AI.DependencyCollector</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="TraceInformation" sap:VirtualizedContainerService.HintSize="538.666666666667,998.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="mae:TelemetryConfiguration" Name="telemetryConfig" />
+      <Variable x:TypeArguments="ma:TelemetryClient" Name="telemteryClient" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Assign DisplayName="Initialize Telemetry Configuration" sap:VirtualizedContainerService.HintSize="496.666666666667,62" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign.To>
+        <OutArgument x:TypeArguments="mae:TelemetryConfiguration">[telemetryConfig]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="mae:TelemetryConfiguration">[New TelemetryConfiguration]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <Assign DisplayName="Assign Instrumentation Key to the Config" sap:VirtualizedContainerService.HintSize="496.666666666667,62" sap2010:WorkflowViewState.IdRef="Assign_2">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[telemetryConfig.InstrumentationKey]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">[in_InstrumentKey]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <Assign DisplayName="Initialize Telemetry Client with Config" sap:VirtualizedContainerService.HintSize="496.666666666667,62" sap2010:WorkflowViewState.IdRef="Assign_3">
+      <Assign.To>
+        <OutArgument x:TypeArguments="ma:TelemetryClient">[telemteryClient]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="ma:TelemetryClient">[New TelemetryClient(telemetryConfig)]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <Assign DisplayName="Assign UserName to the Telemetry Client" sap:VirtualizedContainerService.HintSize="496.666666666667,62" sap2010:WorkflowViewState.IdRef="Assign_4">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:String">[telemteryClient.Context.User.Id]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:String">[Environment.UserName]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[in_Category.ToLower.Trim]" sap:VirtualizedContainerService.HintSize="496.666666666667,192" sap2010:WorkflowViewState.IdRef="Switch`1_1">
+      <Switch.Default>
+        <ui:InvokeCode ContinueOnError="{x:Null}" Code="in_TelemetryClient.TrackTrace(in_LogMessage)&#xA;in_TelemetryClient.Flush" DisplayName="Call TelemetryClient.TrackTrace by default and Do Flush" sap:VirtualizedContainerService.HintSize="333.6,164.8" sap2010:WorkflowViewState.IdRef="InvokeCode_3">
+          <ui:InvokeCode.Arguments>
+            <InArgument x:TypeArguments="x:String" x:Key="in_LogMessage">[in_Message]</InArgument>
+            <InArgument x:TypeArguments="ma:TelemetryClient" x:Key="in_TelemetryClient">[telemteryClient]</InArgument>
+          </ui:InvokeCode.Arguments>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:InvokeCode>
+      </Switch.Default>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:InvokeCode ContinueOnError="{x:Null}" x:Key="error" Code="in_TelemetryClient.TrackException(in_LogException)&#xA;in_TelemetryClient.Flush" DisplayName="Call TelemetryClient.TrackException and Do Flush" sap:VirtualizedContainerService.HintSize="334,164" sap2010:WorkflowViewState.IdRef="InvokeCode_2">
+        <ui:InvokeCode.Arguments>
+          <InArgument x:TypeArguments="x:String" x:Key="in_LogMessage">[in_Message]</InArgument>
+          <InArgument x:TypeArguments="ma:TelemetryClient" x:Key="in_TelemetryClient">[telemteryClient]</InArgument>
+          <InArgument x:TypeArguments="s:Exception" x:Key="in_LogException">[in_Exception]</InArgument>
+        </ui:InvokeCode.Arguments>
+      </ui:InvokeCode>
+      <ui:InvokeCode ContinueOnError="{x:Null}" x:Key="trace" Code="in_TelemetryClient.TrackTrace(in_LogMessage)&#xA;in_TelemetryClient.Flush" DisplayName="Call TelemetryClient.TrackTrace and Do Flush" sap:VirtualizedContainerService.HintSize="334,164" sap2010:WorkflowViewState.IdRef="InvokeCode_1">
+        <ui:InvokeCode.Arguments>
+          <InArgument x:TypeArguments="x:String" x:Key="in_LogMessage">[in_Message]</InArgument>
+          <InArgument x:TypeArguments="ma:TelemetryClient" x:Key="in_TelemetryClient">[telemteryClient]</InArgument>
+        </ui:InvokeCode.Arguments>
+      </ui:InvokeCode>
+      <ui:InvokeCode ContinueOnError="{x:Null}" x:Key="event" Code="in_TelemetryClient.TrackEvent(in_LogMessage)&#xA;in_TelemetryClient.Flush" DisplayName="Call TelemetryClient.Trackevent and Do Flush" sap:VirtualizedContainerService.HintSize="334,164" sap2010:WorkflowViewState.IdRef="InvokeCode_4">
+        <ui:InvokeCode.Arguments>
+          <InArgument x:TypeArguments="x:String" x:Key="in_LogMessage">[in_Message]</InArgument>
+          <InArgument x:TypeArguments="ma:TelemetryClient" x:Key="in_TelemetryClient">[telemteryClient]</InArgument>
+        </ui:InvokeCode.Arguments>
+      </ui:InvokeCode>
+    </Switch>
+    <Assign DisplayName="Nullify Telemetry Configuration" sap:VirtualizedContainerService.HintSize="496.666666666667,62" sap2010:WorkflowViewState.IdRef="Assign_5">
+      <Assign.To>
+        <OutArgument x:TypeArguments="mae:TelemetryConfiguration">[telemetryConfig]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="mae:TelemetryConfiguration">[nothing]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="496.666666666667,62.6666666666667" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="test" />
+    <Assign DisplayName="Nullify Telemetry Client" sap:VirtualizedContainerService.HintSize="496.666666666667,62" sap2010:WorkflowViewState.IdRef="Assign_6">
+      <Assign.To>
+        <OutArgument x:TypeArguments="ma:TelemetryClient">[telemteryClient]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="ma:TelemetryClient">[nothing]</InArgument>
+      </Assign.Value>
+    </Assign>
+  </Sequence>
+</Activity>
